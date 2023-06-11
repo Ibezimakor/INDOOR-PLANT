@@ -1,0 +1,35 @@
+.Indoor_Plant_Nav_Bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Indoor_Plant_Link ul {
+  display: flex;
+  gap: 32px;
+}
+
+.Indoor_Plant_Link li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.Indoor_Plant_Icons ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 24px;
+  width: 119px;
+  height: 27px;
+}
+
+.icon {
+  font-size: 20px;
+}

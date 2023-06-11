@@ -1,0 +1,98 @@
+.HeroSection_Box {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.9375rem;
+}
+
+.HeroSection_WriteUp {
+  width: 41.4375rem;
+}
+
+.HeroSection_WriteUp h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.6875rem;
+}
+
+.HeroSection_WriteUp h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375rem;
+
+  text-transform: uppercase;
+
+  color: #588534;
+}
+
+.HeroSection_WriteUp h2 {
+  width: 34.375rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #474646;
+}
+
+.HeroSection_Button {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3.125rem;
+}
+
+.btn1 {
+  width: 11rem;
+  height: 3.125rem;
+  border: none;
+  background: #588534;
+  border-radius: 0rem 0.1875rem 0rem 0rem;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375rem;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: #588534;
+  border: 1px solid #588534;
+}
+
+.btn2 {
+  box-sizing: border-box;
+  width: 10.875rem;
+  height: 3.125rem;
+  border: none;
+
+  border: 0.0625rem solid rgba(88, 133, 52, 0.4);
+  border-radius: 0rem;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375rem;
+
+  text-transform: capitalize;
+
+  color: #588534;
+}
+
+.btn2:hover {
+  color: #588534;
+  border: 2px solid #588534;
+}

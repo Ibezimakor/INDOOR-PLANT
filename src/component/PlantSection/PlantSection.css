@@ -1,0 +1,80 @@
+.PlantSection_Box {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3.125rem;
+}
+
+.PlantSection {
+  width: 23.3125rem;
+  height: 10.75rem;
+  left: 8.75rem;
+  top: 48.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(88, 133, 52, 0.15);
+  border-radius: 0rem 0rem 0rem 3.8125rem;
+}
+
+.PlantSection_img1 img {
+  width: 12.5rem;
+  margin-bottom: 5.11rem;
+  height: 11.5625rem;
+}
+
+.PlantSection_img2 img {
+  width: 12.25rem;
+  height: 11.5625rem;
+  margin-bottom: 4.625rem;
+}
+
+.PlantSection_img3 {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-bottom: 5.375rem;
+}
+
+.PlantSection_WriteUp {
+  width: 12.75rem;
+}
+.PlantSection_WriteUp h3 {
+  width: 6.3125rem;
+  height: 1rem;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+
+  color: #7a7a7a;
+}
+
+.PlantSection_WriteUp h1 {
+  width: 12.75rem;
+  height: 3.625rem;
+  left: 19.8125rem;
+  top: 51.9375rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+}
+
+.PlantSection_WriteUp h2 {
+  width: 4.125rem;
+  height: 1rem;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  border-bottom: 0.0625rem solid #588534;
+  color: #588534;
+}
