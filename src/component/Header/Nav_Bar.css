@@ -20,6 +20,10 @@
   cursor: pointer;
 }
 
+.Indoor_Plant_Link li:hover {
+  color: #588534;
+}
+
 .Indoor_Plant_Icons ul {
   display: flex;
   flex-direction: row;
@@ -32,4 +36,8 @@
 
 .icon {
   font-size: 20px;
+}
+
+.icon :hover {
+  color: #588534;
 }
